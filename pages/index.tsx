@@ -1,3 +1,4 @@
+import FeatureWorks from '@/components/home/featured-works'
 import HeroSection from '@/components/home/hero'
 import RecentPost from '@/components/home/recent-posts'
 import { MainLayout } from '@/components/layout'
@@ -8,7 +9,8 @@ const Home: NextPageWithLayout = () => {
 	return (
 		<Box>
 			<HeroSection />
-			<RecentPost/>
+			<RecentPost />
+			<FeatureWorks />
 		</Box>
 	)
 }
