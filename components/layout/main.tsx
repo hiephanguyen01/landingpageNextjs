@@ -3,8 +3,8 @@ import React, { useEffect } from 'react'
 import Link from 'next/link'
 import { Stack } from '@mui/material'
 import { Box } from '@mui/system'
-import Footer from '../common/footer'
 import { Header } from '../common/header/index'
+import { Footer } from '../common'
 
 export function MainLayout({ children }: LayoutProps) {
 	useEffect(() => {
