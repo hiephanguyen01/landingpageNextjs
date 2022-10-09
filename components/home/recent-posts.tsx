@@ -11,15 +11,17 @@ export default function RecentPost({}: Props) {
 		{
 			id: '1',
 			title: 'Making a design system from scratch',
-			publishedDate: '1648363391671',
+			publishedDate: '2022-06-18T10:00:00Z',
+			slug: '',
 			tagList: ['Design', 'Pattern'],
 			description:
 				'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
 		},
 		{
 			id: '2',
+			slug: '',
 			title: 'Creating pixel perfect icons in Figma',
-			publishedDate: '1648363391671',
+			publishedDate: '2022-06-18T10:00:00Z',
 			tagList: ['Figma', 'Icon Design'],
 			description:
 				'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
